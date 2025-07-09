@@ -1,0 +1,36 @@
+{
+  "mobile_phone": {
+    "rules" : {
+       "passThreshold": 45,
+       "verifyPercentage": 0.1,
+       "passAction" : "Approve",
+       "failAction" : "Ignore"
+    },
+    "positives" : [
+      "mobile/ph6.png",
+      "mobile/ph7.png",
+      "mobile/ph5.png",
+      "mobile/ph4.png",
+      "mobile/ph1.png"
+      ]
+  },
+  "seatbelt_violation": {
+    "rules" : {
+       "passThreshold": 45,
+       "verifyPercentage": 0.1,
+       "passAction" : "Ignore",
+       "failAction" : "Approve"
+    },
+    "positives" : [
+      "seatbelt/cropSeatbelt-1.png",
+      "seatbelt/cropSeatbelt-2.png",
+      "seatbelt/cropSeatbelt-3.png",
+      "seatbelt/cropSeatbelt-4.png",
+      "seatbelt/cropSeatbelt-5.png",
+      "seatbelt/cropSeatbelt-6.png",
+      "seatbelt/cropSeatbelt-7.png",
+      "seatbelt/cropSeatbelt-8.png",
+      "seatbelt/cropSeatbelt-9.png"
+    ]
+  }
+}
