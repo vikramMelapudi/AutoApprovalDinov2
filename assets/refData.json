@@ -2,7 +2,7 @@
   "mobile_phone": {
     "rules" : {
        "passThreshold": 45,
-       "verifyPercentage": 0.1,
+       "unsureFraction": 0.1,
        "passAction" : "Approve",
        "failAction" : "Ignore"
     },
@@ -17,7 +17,7 @@
   "seatbelt_violation": {
     "rules" : {
        "passThreshold": 45,
-       "verifyPercentage": 0.1,
+       "unsureFraction": 0.1,
        "passAction" : "Ignore",
        "failAction" : "Approve"
     },
